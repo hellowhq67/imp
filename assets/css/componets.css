@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+.col-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.col-down-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.col-down-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+.col-down-4{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: column;
+}
+.col-down-5{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+}
+.col-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.col-flex-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.col-flex-warp{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+.col-flex-warp-2{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+.grid-col{
+    display: grid;
+    grid-template-columns: 40%,60%;
+}
+.col-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titel-tx{
+    color: #000000;
+    font-size: 35px;
+    text-align: center;
+    margin: 4rem 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.p-2{
+    padding: 0px 3rem;
+}
+.m2{
+    margin: 3rem 0px;
+
+}
